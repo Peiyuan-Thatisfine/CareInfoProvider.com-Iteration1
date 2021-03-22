@@ -78,7 +78,6 @@ C:\Users\d'f\Documents\GitHub\CareInfoProvider.com\CareInfoProvider\CareInfoProv
 C:\Users\d'f\Documents\GitHub\CareInfoProvider.com\CareInfoProvider\CareInfoProvider\bin\System.Web.Http.xml
 C:\Users\d'f\Documents\GitHub\CareInfoProvider.com\CareInfoProvider\CareInfoProvider\bin\System.Web.Http.WebHost.xml
 C:\Users\d'f\Documents\GitHub\CareInfoProvider.com\CareInfoProvider\CareInfoProvider\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\d'f\Documents\GitHub\CareInfoProvider.com\CareInfoProvider\CareInfoProvider\obj\Debug\CareInfoProvider.csprojAssemblyReference.cache
 C:\Users\d'f\Documents\GitHub\CareInfoProvider.com\CareInfoProvider\CareInfoProvider\obj\Debug\CareInfoProvider.csproj.CoreCompileInputs.cache
 C:\Users\d'f\Documents\GitHub\CareInfoProvider.com\CareInfoProvider\CareInfoProvider\obj\Debug\CareInfoProvider.csproj.CopyComplete
 C:\Users\d'f\Documents\GitHub\CareInfoProvider.com\CareInfoProvider\CareInfoProvider\obj\Debug\CareInfoProvider.dll

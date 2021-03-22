@@ -13,16 +13,30 @@ namespace CareInfoProvider.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Course()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Course Page";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult OtherInfo()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "OtherInform Page";
+
+            return View();
+        }
+
+        public ActionResult MelbourneNursingHome()
+        {
+            ViewBag.Message = "Nursing home list page.";
+
+            return View();
+        }
+
+        public ActionResult SceneSimulation()
+        {
+            ViewBag.Message = "Simulation.";
 
             return View();
         }
