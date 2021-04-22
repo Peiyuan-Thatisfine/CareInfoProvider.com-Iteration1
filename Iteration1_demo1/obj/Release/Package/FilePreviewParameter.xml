@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="CareInfoProvider" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\d'f\\Documents\\GitHub\\FIT5120_zden0013\\Iteration1_demo1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\d'f\\Documents\\GitHub\\FIT5120_zden0013\\Iteration1_demo1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,50 @@
+﻿body {
+}
+/* define style for all the div element in first class 
+        setting background picture and size of the pricture
+    */
+div.first {
+    background-image: url('../../Image/Elder-Frontpage.png');
+    height: 400px;
+}
+
+/* define style for all the h1 element in title class 
+        setting the position of title
+    */
+h1.title {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: white;
+}
+
+/* define style for all the div element in second class */
+div.second {
+    background-color: grey;
+    width: 700px;
+    padding: 50px;
+    margin: 50px;
+    color: white;
+}
+
+/* define style for all the image element in second class */
+img.second {
+    position: absolute;
+    left: 1100px;
+    top: 950px;
+}
+
+div.third {
+    position: relative;
+    left: 20%;
+    background-color: Plum;
+    width: 800px;
+    padding: 50px;
+    margin: 50px;
+}
+
+img.third {
+    position: absolute;
+    left: 490px;
+    top: 1675px;
+}

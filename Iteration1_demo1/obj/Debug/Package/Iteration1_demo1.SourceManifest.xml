@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\d'f\Documents\GitHub\FIT5120_zden0013\Iteration1_demo1\obj\Debug\Package\PackageTmp" />
+  <setAcl path="C:\Users\d'f\Documents\GitHub\FIT5120_zden0013\Iteration1_demo1\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\d'f\Documents\GitHub\FIT5120_zden0013\Iteration1_demo1\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

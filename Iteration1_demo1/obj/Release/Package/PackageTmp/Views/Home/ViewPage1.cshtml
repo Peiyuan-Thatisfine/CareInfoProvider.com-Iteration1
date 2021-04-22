@@ -1,0 +1,41 @@
+﻿@{
+     Layout = null; 
+ }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XX商城后台管理系统登录</title>
+    <script type="text/javascript">
+         if (window.parent.window != window) {
+            window.top.location.href = "/Home/CheckLogin";
+         }
+    </script>
+
+    <script src="~/Scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+    14     @* <script src="../../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>*@
+    15
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    16     @*<script src="../../Scripts/jquery.validate.min.js" type="text/javascript"></script>*@
+    17
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>   @*ajax登录*@
+    18
+    <script type="text/javascript">
+            function changeCheckCode() {
+                //为图片加一个src参数，向其后追加一个1，比如现在是src=“a1”,点击一次就是a11
+               $("#img").attr("src", $("#img").attr("src") + 1);
+           }
+           function afterLogin(data) {
+                var serverData = data.split(':');
+               if (serverData[0] == "ok") {
+                   //页面跳转一下
+                    window.location.href = "/Home/Index"
+                } else {
+                    $("#errorMsg").css("display", "block");
+                    $("#errorMsg").text(serverData[1]);
+                   changeCheckCode();   //让验证码切换一下
+               }
+            }
+        </script>
+    </head>
+</html>
+ 

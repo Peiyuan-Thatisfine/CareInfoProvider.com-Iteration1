@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - CareInfoProvider</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+   
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--Html.ActionLink("CareInfoProvider", "Index", "Home",new { area = "" }, new { class = "navbar-brand" })-->
+                <a class="navbar-brand" href="/Home/Index">
+                    <img src="~/Image/SmallLogo.png" style="margin-top:-13px" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse" style="float:right;text-emphasis-color:white">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Elder Abuse Info", "ElderAbuseInformation", "Home")</li>
+                    <li>@Html.ActionLink("Statistics", "Statistics", "Home")</li>
+                    <li>@Html.ActionLink("Melbourne Nursing Home", "MelbourneNursingHome", "Home")</li>
+                    @*<li>@Html.ActionLink("About Us", "About", "Home")</li>*@
+                    <li>@Html.ActionLink("How to help", "HowToHelp", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p1>&copy; @DateTime.Now.Year - Joyful Longevity</p1>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

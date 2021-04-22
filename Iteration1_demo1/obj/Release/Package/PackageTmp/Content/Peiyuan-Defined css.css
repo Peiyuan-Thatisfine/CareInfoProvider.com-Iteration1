@@ -1,0 +1,37 @@
+﻿body {
+}
+/*Title style of the preventionmethod page*/
+div.Prev-Title {
+    font-family:'Lucida Handwriting'; 
+    text-align:center;
+    width:auto;
+    height:auto;
+    margin-left:30px;
+}
+/*Block style of prevention method page*/
+div.sub-module{
+    border:none;
+    width:auto;
+    height:auto;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:30px;
+}
+
+div.article {
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: darkslategrey;
+}
+
+div.article-title{
+    font-family:Calibri;
+    font-size:80px;
+}
+div.article-subtitle{
+    font-family:'Times New Roman';
+    font-size:x-large;
+    color:darkslategrey;
+    width:auto;
+}
